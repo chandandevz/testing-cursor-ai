@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Creative Developer</title>
+    <meta name="description" content="Creative developer portfolio with interactive animations">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animated Canvas Background -->
+    <canvas id="particleCanvas"></canvas>
+    <canvas id="geometryCanvas"></canvas>
+    <canvas id="waveCanvas"></canvas>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Portfolio</div>
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-line">Creative</span>
+                <span class="title-line">Developer</span>
+            </h1>
+            <p class="hero-subtitle">Crafting digital experiences with code and creativity</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Passionate about creating immersive digital experiences</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a creative developer who loves bringing ideas to life through code. With a background in both design and development, I create engaging web experiences that blend aesthetics with functionality.</p>
+                    <div class="skills">
+                        <h3>Technologies I Love</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Three.js</span>
+                            <span class="skill-tag">Canvas API</span>
+                            <span class="skill-tag">WebGL</span>
+                            <span class="skill-tag">CSS3</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">TypeScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="about-card glass-card">
+                        <div class="card-content">
+                            <h4>Creative Problem Solver</h4>
+                            <p>Turning complex challenges into elegant solutions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">A collection of my recent work and experiments</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <h3>Interactive Dashboard</h3>
+                            <p>Real-time data visualization with D3.js and Canvas</p>
+                            <div class="project-links">
+                                <a href="#" class="project-link">Live Demo</a>
+                                <a href="#" class="project-link">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <h3>3D Portfolio Site</h3>
+                            <p>Immersive 3D experience built with Three.js</p>
+                            <div class="project-links">
+                                <a href="#" class="project-link">Live Demo</a>
+                                <a href="#" class="project-link">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <h3>Animation Library</h3>
+                            <p>Custom animation framework for web applications</p>
+                            <div class="project-links">
+                                <a href="#" class="project-link">Live Demo</a>
+                                <a href="#" class="project-link">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <h3>Creative Playground</h3>
+                            <p>Experimental canvas animations and interactions</p>
+                            <div class="project-links">
+                                <a href="#" class="project-link">Live Demo</a>
+                                <a href="#" class="project-link">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="section-subtitle">Ready to bring your ideas to life? Let's talk!</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>Email</h3>
+                        <p>hello@portfolio.dev</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Location</h3>
+                        <p>San Francisco, CA</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Follow Me</h3>
+                        <div class="social-links">
+                            <a href="#" class="social-link">GitHub</a>
+                            <a href="#" class="social-link">LinkedIn</a>
+                            <a href="#" class="social-link">Twitter</a>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form glass-card">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Portfolio. Crafted with ❤️ and lots of coffee.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
